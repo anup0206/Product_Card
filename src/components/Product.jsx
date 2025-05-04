@@ -49,6 +49,8 @@ const Product = () => {
             image={val.image}
             price={val.price}
             category={val.category}
+            rating={val.rating.rate} 
+
           />
         ))}
       </div>
